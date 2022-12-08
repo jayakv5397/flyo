@@ -1,0 +1,202 @@
+  /* Global Parameters */
+
+html, body{
+    margin: 0;
+    padding: 0%;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+    line-height: 1.4;
+    font-size: 2.1rem;
+}
+
+h3{
+    font-size: medium;
+    font-weight: 500;
+}
+
+
+h5{
+    font-size: smaller;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+h6{
+    font-size: small;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 3%;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: hsl(243, 87%, 12%);
+}
+
+/* Navbar - Header  */
+
+.navbar{
+    padding: 3% 7%;
+}
+
+.nav-item{
+    margin: 0 20px;
+}
+
+
+/* title section  */
+
+.title{
+
+    padding: 3% 7%;
+
+}
+
+.title-img{
+    padding: 10% auto;
+    width: 90%;
+}
+
+.title-content{
+
+    padding-top: 5%;
+}
+
+.Search{
+    display: inline-block;
+}
+
+
+/* productive section  */
+
+.produtive{
+
+    padding: 15% 7% 7%;    
+}
+
+.productive-img{
+    padding: 10% auto;
+    width: 90%;
+}
+
+
+.fylo-works{
+    color: hsl(170, 45%, 43%);
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 50% 0% 20%;
+}
+
+.quote{
+    width: 50%;
+    font-size: smaller;
+    justify-content: left;
+    margin-top: 5%;
+}
+
+.testimonial{
+    position: relative;
+    margin-top: 10%;
+
+}
+
+.kayle{
+    border-radius: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* last-one  */
+
+.last-one{
+    /* color: white; */
+    background-color: hsl(238, 22%, 44%);
+    padding: 5% 7%;
+}
+
+
+.get-early{
+
+    padding-right: 10%;
+
+}
+
+
+/* footer  */
+
+
+footer{
+
+    background-color: hsl(243, 87%, 12%);
+    padding: 3% 7%;
+    color: white !important;
+}
+
+/* 
+.change-my-color {
+    fill: white;
+    color: white;
+  }
+   */
+
+.filterit{
+    width:270px;
+    filter: invert(88%) sepia(21%) saturate(935%) hue-rotate(123deg) brightness(85%) contrast(97%);
+ }
+
+ .foot{
+    color: white;
+    text-align: left;
+ }
+
+
+ svg{
+
+    margin-bottom: 25px;
+ }
+
+
+ .white{
+    color: white;
+ }
+
+
+ @media (max-width: 900px) {
+    .title{
+        text-align: center;
+    }
+
+    h1{
+        font-size: larger;
+    }
+
+    p{
+        font-size: medium;
+    }
+
+    .quote{
+        width: 100%;
+        font-size: smaller;
+        justify-content: left;
+        margin-top: 5%;
+    }
+
+    .last-one{
+        /* color: white; */
+        background-color: hsl(238, 22%, 44%);
+        padding: 5% 7%;
+        text-align: center;
+    }
+
+    .form-control{
+        width: 50%;
+    }
+    
+
+  }
